@@ -23,7 +23,32 @@ body {
 }
 
 .contact-form .name-container,
-.query-section,
-.email-container {
+.query-container .query-section {
   display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.contact-form .name-container label,
+.email-container label,
+.message label {
+  display: block;
+  font-size: 20px;
+}
+.contact-form .name-container input,
+.email-container input,
+.message input,
+.query {
+  display: block;
+  font-size: 20px;
+  padding: 5px 0;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 5px;
+}
+label::after {
+  content: '*';
+  /* position: relative; */
+  color: green;
+  margin-left: 5px;
 }
