@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'karla';
+  src: url('../assets/fonts/Karla-VariableFont_wght.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'karla';
+}
+body {
+  background-color: #e2f1e7;
+}
+.contact-form {
+  background-color: #fff;
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transform: translateY(50%);
+}
+
+.contact-form .name-container,
+.query-section,
+.email-container {
+  display: flex;
+}
